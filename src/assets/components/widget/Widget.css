@@ -1,0 +1,36 @@
+.Widget-container {
+    width: 900px;
+    height: 800px;
+   position: relative;
+   /* top: -90px; */
+   left: -100px;
+   margin: 10px;
+    /* background-color: rgb(221, 240, 216); */
+}
+.breadcrumb {
+    position:relative;
+    top: -10px;
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.widgettitle{
+    /* margin-top: 20px; */
+    font-size: 30px;
+    text-align: start;
+    color: #7E22CE;
+    margin-bottom: 50px;
+    
+}
+.widgetsettings{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.widgetsettings .active{
+    color: #7E22CE;
+    
+}

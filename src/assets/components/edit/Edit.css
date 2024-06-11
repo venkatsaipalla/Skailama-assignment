@@ -1,0 +1,91 @@
+
+.Edit-container {
+    width: 900px;
+    height: 800px;
+   position: relative;
+   /* top: -90px; */
+   left: -100px;
+   margin: 0px;
+    /* background-color: rgb(221, 240, 216); */
+}
+.breadcrumb {
+    position:relative;
+    top: -10px;
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.editarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.editarea button{
+    width: 150px;
+    margin: 4px;
+}
+
+.discard{
+    background-color: white;
+    color: red;
+    border: solid 2px red;
+    
+}
+.save{
+    background-color: black;
+    color: white;
+}
+.speaker{
+    color:#7E22CE;
+    font-family:'Roboto', sans-serif ;
+    margin: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.edittitle{
+    /* margin-top: 20px; */
+    font-size: 30px;
+    text-align: center;
+    color: #7E22CE;
+    
+}
+.des{
+    padding-left: 10px;
+}
+
+.editmodebutton{
+    background-color: #3C3C3C;
+  color: white;
+    margin: 3px;
+    padding: auto;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.editmodeon,
+.editmodeoff{
+    text-align: start;
+    height: 400px;
+    width: 100%;
+    /* background-color:blue */
+  border: solid blue 2px ;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.editmodeon{
+    display: flex;
+    flex-direction: column;
+}
+.textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+}

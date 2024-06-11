@@ -1,0 +1,35 @@
+.subscription{
+    width: 80%;
+    text-align: start;
+    position: relative;
+    top: -100px;
+    font-size: 30px;
+    font-family: 'Roboto',sans-serif;
+    color: #7E22CE;
+    font-weight: 700;
+
+}
+.subscriptioncontent{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #7E22CE;
+    border-radius: 15px;
+    height: 60px;
+    
+}
+.subscriptioncontent p{
+    color: white;
+    font-size: 16px;
+    text-align: start;
+    font-weight: 400;
+}
+.subscriptioncontent button{
+    color: #7E22CE;
+    font-size: 16px;
+}
+.cancel{
+    color: red;
+    font-size: 12px;
+    padding-left: 2px;
+}
